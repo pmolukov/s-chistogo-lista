@@ -128,7 +128,7 @@ blockquote {
 }
 
 .reasons {
-  padding: 20px 40px;
+  padding: 40px 20px;
 }
 
 .content-section__subtitle {
@@ -208,7 +208,11 @@ blockquote {
 .card__text {
   font-size: 16px;
   font-weight: 400;
-  line-height: 21.6px;
+  line-height: 1.35;
+}
+
+.card_text-only .card__title {
+  margin: 0 0 8px 0;
 }
 
 .footer {
